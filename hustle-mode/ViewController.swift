@@ -2,8 +2,8 @@
 //  ViewController.swift
 //  hustle-mode
 //
-//  Created by Mark Price on 6/17/17.
-//  Copyright © 2017 Devslopes. All rights reserved.
+//  Created by Xiaohui Liu on 12/25/18.
+//  originally from https://www.youtube.com/watch?v=5b91dFhZz0g
 //
 
 import UIKit

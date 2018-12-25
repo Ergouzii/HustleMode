@@ -12,7 +12,7 @@
 		89D60F071EF6045200526602 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 89D60F051EF6045200526602 /* Main.storyboard */; };
 		89D60F091EF6045200526602 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 89D60F081EF6045200526602 /* Assets.xcassets */; };
 		89D60F0C1EF6045200526602 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 89D60F0A1EF6045200526602 /* LaunchScreen.storyboard */; };
-		89D60F141EF6051500526602 /* hustle-on.wav in Resources */ = {isa = PBXBuildFile; fileRef = 89D60F131EF6051500526602 /* hustle-on.wav */; };
+		FF059E5121D2F6A50073EF40 /* hustle-on.wav in Resources */ = {isa = PBXBuildFile; fileRef = FF059E5021D2F6A50073EF40 /* hustle-on.wav */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,7 +23,7 @@
 		89D60F081EF6045200526602 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		89D60F0B1EF6045200526602 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		89D60F0D1EF6045200526602 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		89D60F131EF6051500526602 /* hustle-on.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = "hustle-on.wav"; path = "../../../../App Designs/Hustle Mode/Assets/hustle-on.wav"; sourceTree = "<group>"; };
+		FF059E5021D2F6A50073EF40 /* hustle-on.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = "hustle-on.wav"; path = "../../hustle-mode-code-assets/assets/Assets/hustle-on.wav"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,7 +56,7 @@
 		89D60F001EF6045200526602 /* hustle-mode */ = {
 			isa = PBXGroup;
 			children = (
-				89D60F131EF6051500526602 /* hustle-on.wav */,
+				FF059E5021D2F6A50073EF40 /* hustle-on.wav */,
 				89D60F011EF6045200526602 /* AppDelegate.swift */,
 				89D60F031EF6045200526602 /* ViewController.swift */,
 				89D60F051EF6045200526602 /* Main.storyboard */,
@@ -125,7 +125,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				89D60F141EF6051500526602 /* hustle-on.wav in Resources */,
+				FF059E5121D2F6A50073EF40 /* hustle-on.wav in Resources */,
 				89D60F0C1EF6045200526602 /* LaunchScreen.storyboard in Resources */,
 				89D60F091EF6045200526602 /* Assets.xcassets in Resources */,
 				89D60F071EF6045200526602 /* Main.storyboard in Resources */,
@@ -273,10 +273,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = NUW936ZHH8;
+				DEVELOPMENT_TEAM = QDC5G342CC;
 				INFOPLIST_FILE = "hustle-mode/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.devslopes.hustle-mode";
+				PRODUCT_BUNDLE_IDENTIFIER = Ergouzi;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -287,10 +287,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = NUW936ZHH8;
+				DEVELOPMENT_TEAM = QDC5G342CC;
 				INFOPLIST_FILE = "hustle-mode/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.devslopes.hustle-mode";
+				PRODUCT_BUNDLE_IDENTIFIER = Ergouzi;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -316,6 +316,7 @@
 				89D60F121EF6045200526602 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
